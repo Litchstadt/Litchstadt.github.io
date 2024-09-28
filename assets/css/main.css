@@ -20,7 +20,7 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #4e4e4e; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #4f4f4f; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #0a090f; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ffd900; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
@@ -1679,4 +1679,39 @@ section,
 
 .border-garion {
   border-color: var(--garion-color) !important;
+}
+
+/*--------------------------------------------------------------
+# Library Page Titles & Breadcrumbs
+--------------------------------------------------------------*/
+.lib-page-title{
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+  font-size: 50px;
+  color: white;
+  text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+# Library Floor Selection
+--------------------------------------------------------------*/
+.floorSelectHist{
+  height: 12.34cm;
+  width: 25.63cm;
+  transform: translateX(-15%);
+  background-image: url("https://docs.google.com/drawings/d/e/2PACX-1vSZRIkszKcdcRRmsCqrt8_LH-cND71PcpAtcO3U6yBXVC7ClZl80WynnTZ_PDeIM-woNxiR7BGvN4Oi/pub?w=969&amp;h=466");
+}
+.floorSelectHist:hover{
+  background-image: url("https://docs.google.com/drawings/d/e/2PACX-1vQ8ozZjSs0TPmgrT7h-2-CQSTH1qF8WN8lHYAdnr5YMYLrlUDZbRFLU1R-g5EZz00foaQ98riX86MI_/pub?w=969&amp;h=466");
+}
+
+.floorSelectTechno{
+  height: 12.34cm;
+  width: 25.63cm;
+  transform: translateX(-15%);
+  background-image: url("https://docs.google.com/drawings/d/e/2PACX-1vRkydPRd09VM3TqpsSYO48cRaEWV2wq65pEf2Srs_3FSaSM75WKUQrPsP5OmpMaZrgb92uYS1RZICyK/pub?w=969&amp;h=466");
+}
+.floorSelectTechno:hover{
+  background-image: url("https://docs.google.com/drawings/d/e/2PACX-1vSGwqT906iY_zcD-IveKKbjMyybyFhV1RFFHpg98W91SQaST1JE1kXLWZNECV_Xlaj1ETaL9euq7WwO/pub?w=969&amp;h=466")
 }
